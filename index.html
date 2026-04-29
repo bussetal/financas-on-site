@@ -1,15 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 <head>
-<title>FINANÇAS ON</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FINANÇAS ON</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: white;
+    }
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #1f2937;
+    }
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+      color: #22c55e;
+    }
+    .hero {
+      padding: 90px 8%;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+    .hero p {
+      color: #cbd5e1;
+      font-size: 18px;
+      max-width: 720px;
+      margin: 0 auto 32px;
+    }
+    .btn {
+      display: inline-block;
+      background: #2563eb;
+      color: white;
+      padding: 16px 28px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      padding: 30px 8% 80px;
+    }
+    .card {
+      background: #111827;
+      border: 1px solid #1f2937;
+      border-radius: 14px;
+      padding: 24px;
+    }
+    .card h3 {
+      color: #22c55e;
+    }
+    footer {
+      text-align: center;
+      padding: 28px;
+      border-top: 1px solid #1f2937;
+      color: #94a3b8;
+    }
+    footer a {
+      color: #60a5fa;
+      margin: 0 10px;
+    }
+  </style>
 </head>
 <body>
 
-<h1>FINANÇAS ON</h1>
-<p>Site oficial do aplicativo.</p>
+<header>
+  <div class="logo">💲 FINANÇAS ON</div>
+  <nav>
+    <a href="privacy.html" style="color:white;">Privacidade</a>
+    <a href="terms.html" style="color:white; margin-left:16px;">Termos</a>
+  </nav>
+</header>
 
-<a href="privacy.html">Política de Privacidade</a><br>
-<a href="terms.html">Termos de Uso</a>
+<section class="hero">
+  <h1>Controle suas finanças com facilidade</h1>
+  <p>
+    O FINANÇAS ON é um aplicativo para controle financeiro, despesas,
+    agenda, notas, notificações e recursos Premium.
+  </p>
+
+  <a class="btn" href="#" download>Baixar aplicativo</a>
+</section>
+
+<section class="features">
+  <div class="card">
+    <h3>Despesas</h3>
+    <p>Cadastre, edite e acompanhe despesas pagas, pendentes e atrasadas.</p>
+  </div>
+
+  <div class="card">
+    <h3>Agenda</h3>
+    <p>Organize eventos, compromissos, feriados e lembretes importantes.</p>
+  </div>
+
+  <div class="card">
+    <h3>Notas</h3>
+    <p>Crie notas pessoais sincronizadas com sua conta.</p>
+  </div>
+
+  <div class="card">
+    <h3>Premium</h3>
+    <p>Libere mais recursos, limites maiores e funcionalidades avançadas.</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 FINANÇAS ON - Todos os direitos reservados.</p>
+  <a href="privacy.html">Política de Privacidade</a>
+  <a href="terms.html">Termos de Uso</a>
+</footer>
 
 </body>
 </html>
